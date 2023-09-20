@@ -1,0 +1,102 @@
+.svg-arrow:hover path {
+    stroke: white;
+    z-index: 99;
+  }
+  
+  .svg-arrow:hover circle {
+    fill: #a65cf0;
+    z-index: 1;
+  }
+  
+  /* =======just-validate========== */
+  .just-validate-error-field {
+    border-color: #FF6972;
+  }
+  
+  .just-validate-success-field {
+    border: 2px solid #b8ec64;
+    /* border-color:#B8EC64; */
+  }
+  
+  .just-validate-error-label {
+    position: absolute;
+    left: 18;
+    top: -22px;
+    color:#FF6972;
+  }
+  
+  .input-wrapper {
+    position: relative;
+  }
+  /* ========swiper============ */
+  .swiper {
+    max-height: 100%;
+  }
+  /* ===================== */
+
+/* ==========svg-backet============ */
+
+.svg-user:hover path,
+.basket:hover path{
+    fill: #C998FB;
+}
+
+.basket:focus-visible path{
+    fill: #FFF;
+}
+.svg-user:focus-visible,
+.count-basket:focus-visible{
+    background-color:#C998FB;
+  }
+
+.svg-user:active path,
+.basket:active path{
+    fill:#7033AC;
+}
+/* //==========PHONE========== */
+.phone{
+    cursor: pointer;
+}
+
+.phone:hover .phone-svg path{
+    fill:#FFBD59; 
+}
+
+.phone:hover .phone-number{
+    color:#FFBD59;  
+}
+
+.phone:focus-visible{
+   background: var(--bone, #FFF5D1);
+}
+
+.phone:active .phone-svg path{
+    fill:#BB370E; 
+}
+
+.phone:active .phone-number{
+    color:#BB370E;  
+}
+
+.phone-number{
+    color: var(--secondary, #FF862F);
+font-family: 'Open Sans';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 14px */
+}
+/* //==================== */
+.v-catalog path{
+ fill:#a65cf0;
+}
+
+/* .v-catalog g path{
+    stroke:red;
+} */
+
+.v-catalog circle{
+    stroke:#a65cf0;
+   }
+
+   

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1500px) {
+  .rating-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .header-nav-list a:not(:last-child) {
+    margin-right: 61px;
+}
+}
+
+@media screen and (max-width: 1300px){
+   .block-info-bottom img{
+    display: none;
+   } 
+
+   .header-nav-top__right a:not(:last-child) {
+    margin-right: 44px;
+}
+
+.header-nav-top{
+  flex-wrap: wrap;
+}
+}

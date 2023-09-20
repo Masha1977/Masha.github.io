@@ -1,0 +1,118 @@
+h3{
+    margin: 0;
+}
+
+.width{
+    margin-bottom: 12px;
+    display: inline-block;
+    font-weight: 600;
+    width: 250px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 82px;
+}
+
+.product-left {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.product-left-img {
+  margin-bottom: 16px;
+}
+
+.product-left-round {
+  margin-bottom: 32px;
+}
+
+.product-descr {
+  margin-bottom: 105px;
+}
+
+.product-descr__title {
+  margin-bottom: 8px;
+  color: var(--black, #333);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 16px */
+}
+.product-descr__text {
+  color: var(--black, #333);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+}
+
+.product-right {
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-right-h3 {
+  margin-bottom: 5px;
+}
+
+.product-right-p {
+  margin-bottom: 21px;
+  color: var(--grey, #999);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 14px */
+}
+
+.product-right-price {
+  margin-bottom: 21px;
+  color: var(--black, #333);
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 46.8px */
+}
+.product-right-add{
+    margin-bottom: 111px;
+    padding-left: 33px;
+    color: var(--primary, #A65CF0);
+font-family: 'Open Sans';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+}
+
+.similar-products{
+    display: grid;
+    grid-template-columns: repeat(4) 1fr;
+}
+
+.rating-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 32px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.D-31{
+  color: var(--primary-shade, #7033AC);
+font-family: 'Open Sans';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 14px */
+}
+
+.bread-crumbs__link:hover{
+  color: red;
+}
