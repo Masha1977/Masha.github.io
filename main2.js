@@ -61,6 +61,7 @@ window.onload = function () {
 
 
 let btnBuy2 = document.querySelectorAll(".btn-buy");
+console.log(btnBuy2)
 for (const element of btnBuy2) {
   element.addEventListener("click", function (e) {
     e.preventDefault();

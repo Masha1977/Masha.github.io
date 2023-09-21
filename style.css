@@ -1,6 +1,9 @@
 
 
 
+
+
+
 @font-face {
   font-family: "Open Sans";
   src: url(./fonts/open-sans.woff2);
@@ -25,6 +28,10 @@ body {
   width: 100%;
   background: #f6f6f6;
 }
+
+/* .wrap-fluid-header{ 
+  background: #f6f6f6;
+} */
 
 .wrap {
   padding-left: 6%;
@@ -86,6 +93,7 @@ h3 {
   font-style: normal;
   font-weight: 600;
   line-height: 100%; /* 16px */
+  cursor: pointer;
 }
 
 .btn-buy:hover {
@@ -131,6 +139,15 @@ a {
 .header {
   height: 300px;
 }
+
+.header-middle{
+  display: none;
+  }
+
+.header-min{
+  display: none;
+  }
+
 .header-nav-top {
   height: 50px;
   background-color: #f6f6f6;
@@ -502,6 +519,10 @@ a {
 .offers-btn-block svg {
   width: 32px;
   height: 32px;
+}
+
+.offer-swiper-min{
+display: none;
 }
 
 .offers-gallery {

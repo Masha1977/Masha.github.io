@@ -96,6 +96,7 @@ validation
   
 
   let btnBuy = document.querySelectorAll(".btn-buy");
+  console.log(btnBuy)
   for (const element of btnBuy) {
     element.addEventListener('click', function(e){
       e.preventDefault();
@@ -108,4 +109,18 @@ validation
     e.preventDefault();
     window.location.href = "./index-2.html";
    })
+
+  //  BURGER===============================================================
+  
+  let burger = document.querySelector(".menu-burger__header");
+  let headerNav = document.getElementById("header-nav");
+  let headerMin = document.querySelector(".header-min");
+  burger.addEventListener('click', function(e){
+    e.preventDefault();
+    burger.classList.toggle("open-menu");
+    headerNav.classList.toggle("block")
+   headerMin.classList.toggle("height")
+  })
+  
+  
   
